@@ -1,30 +1,17 @@
 {
-  "name": "clipboard-dom",
-  "description": "Copy-to-Clipboard on a DOM element",
+  "name": "component-clipboard-dom",
+  "description": "Makes a DOM element (i.e. <button>) write to the system clipboard",
+  "version": "0.0.4",
   "keywords": [
     "copy",
     "clipboard",
-    "text",
-    "click",
     "dom",
+    "click",
     "button"
   ],
-  "version": "0.0.4",
   "dependencies": {
-    "classes-component": "*",
-    "inherit-component": "*",
-    "emitter-component": "*"
-  },
-  "component": {
-    "files": [
-      "ZeroClipboard.swf"
-    ],
-    "scripts": {
-      "clipboard-dom": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/clipboard-dom.git"
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git"
   }
 }

@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var classes = require('classes');
-var inherit = require('inherit');
-var Emitter = require('emitter');
+var classes = require('component-classes');
+var inherit = require('component-inherit');
+var Emitter = require('component-emitter');
 
 /**
  * Module exports.
